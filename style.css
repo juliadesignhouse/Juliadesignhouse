@@ -1,5 +1,6 @@
 /* General Styling */
 
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -922,4 +923,9 @@ a.btn:hover {
 @keyframes zoomIn {
   from {transform: scale(0.5);}
   to {transform: scale(1);}
+}
+
+.hamburger {
+  position: relative;
+  z-index: 1000;
 }
