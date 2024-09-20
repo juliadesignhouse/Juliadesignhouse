@@ -317,7 +317,6 @@ nav {
 @media only screen and (max-width: 600px) {
   .process-grid {
     flex-direction: column;
-    padding-left: 20px;
   }
   
 }
@@ -438,6 +437,21 @@ nav {
   padding: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  .comparison-circle1 {
+    width: 300px;
+    height: 350px;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .comparison-grid {
+    gap: 10px;
+  }
+}
+
 .comparison-circle2 {
   background-color: rgba(255, 0, 0, 0.3);
   border-radius: 50%;
@@ -450,6 +464,13 @@ nav {
 
   text-align: center;
   padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .comparison-circle2 {
+    width: 300px;
+    height: 350px;
+  }
 }
 
 .comparison-circle h2 {
